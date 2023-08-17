@@ -1,6 +1,6 @@
 # Clean Internationalization implementation with Next-intl
 
-This project serves as a demonstration of how to set up internationalization (i18n) using the **`next-intl`** package in a **Next.js 13** application using **App router system**. A standout feature of this implementation is the customized structure of the translation folder, allowing for greater flexibility and organization of translation files.
+This project serves as a demonstration of how to set up internationalization (i18n) using the **`next-intl package`**  in a **`Next.js 13`** application using the **`App router system`**. A standout feature of this implementation is the customized structure of the translation folder, allowing for greater flexibility and organization of translation files.
 
 Here an example on how you can customize your translations content.
 
