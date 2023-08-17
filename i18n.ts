@@ -6,7 +6,6 @@ type DeepPartial<T> = {
   [P in keyof T]?: T[P] extends object ? DeepPartial<T[P]> : T[P];
 } & AnyObject;
 
-
 // Create a context for the translations directory
 // @ts-ignore
 const context = require.context('./translations', true, /\.json$/);
@@ -37,6 +36,7 @@ export default getRequestConfig(async ({ locale }) => {
     messages,
   };
 });
+
 
 // Helper function to deep merge objects
 function deepMerge(target: AnyObject, source: AnyObject): AnyObject {
