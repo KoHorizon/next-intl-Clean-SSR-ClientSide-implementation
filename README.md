@@ -32,3 +32,10 @@ const t = useTranslations("common"); // This is your page
 // In your tsx :
 <h1>{t("translations2.keyYouWantToAccess")} </h1> // Access your key like in a regular json file
 ```
+
+
+If you want to move the **“translations”** folder, do so by modifying this line in the **`i18n.ts`** file :
+
+```ts
+const context = require.context('./translations', true, /\.json$/);
+```
