@@ -1,6 +1,6 @@
 import {useLocale, NextIntlClientProvider, useMessages} from 'next-intl';
 
-export default function ClientTranslationProvider({children}: {children: any}) {
+export default function ClientTranslationProvider({children}: {children: React.ReactNode}) {
   const locale = useLocale();
   const messages = useMessages();
   if (!messages) return null;
