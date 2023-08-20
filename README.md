@@ -39,3 +39,6 @@ If you want to move the **“translations”** folder, do so by modifying this l
 ```ts
 const context = require.context('./translations', true, /\.json$/);
 ```
+
+
+> :warning: **Do not use '.' in your Namespace keys**: "." is used to express nesting.
